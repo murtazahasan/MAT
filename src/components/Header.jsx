@@ -7,7 +7,7 @@ function Header() {
     <>
       <nav className="navbar navbar-expand-lg  bg-dark  navbar-dark sticky-top">
         <div className="container-fluid">
-          <NavLink to="/">
+          <NavLink to="/" onClick={() => window.scrollTo(0, 0)}>
             <img
               className="d-block  rounded-circle"
               src="MATf.png"
@@ -30,22 +30,22 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/">
+                <NavLink className="nav-link" aria-current="page" to="/" onClick={() => window.scrollTo(0, 0)}>
                   Documentaion
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="Learn">
+                <NavLink className="nav-link" to="Learn" onClick={() => window.scrollTo(0, 0)}>
                   Learn
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="Community">
+                <NavLink className="nav-link" to="Community" onClick={() => window.scrollTo(0, 0)}>
                   Community
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="Pricing">
+                <NavLink className="nav-link" to="Pricing" onClick={() => window.scrollTo(0, 0)}>
                   Pricing
                 </NavLink>
               </li>
